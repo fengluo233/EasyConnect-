@@ -103,7 +103,7 @@ add_route_rules() {
         fi
     fi
     # 子网列表
-    SUBNET="202.114.0.0/16 10.0.0.0/8  *.hust.edu.cn"    
+    SUBNET="202.114.0.0/16 10.0.0.0/8"    
     for ((i=0;i<${#SUBNET[@]};i++)); do
         if [[ ${SUBNET[i]} != ${VPN_IP_START}* ]]; then
             sudo route -n add -net ${SUBNET[i]} $GATEWAY > /dev/null
