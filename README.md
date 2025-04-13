@@ -42,11 +42,11 @@
 ### 2.2 执行脚本
 1. 下载脚本并赋予执行权限：
    ```bash
-   chmod +x easyconnect_hust_macos.sh
+   chmod +x easyconnect_hust_mac.sh
    ```
 2. 运行脚本以启动 EasyConnect 并配置路由：
    ```bash
-   ./easyconnect_hust_macos.sh
+   ./easyconnect_hust_mac.sh
    ```
 
 ### 2.3 脚本功能
