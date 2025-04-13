@@ -118,7 +118,7 @@ delete_route_rules() {
 
 add_route_rules() {
     echo 'Add route rules ... '
-    SUBNET="202.114.0.0/16 10.0.0.0/8  *.hust.edu.cn"
+    SUBNET="202.114.0.0/16 10.0.0.0/8"
     COUNT=1
     TOTAL=$(echo "$SUBNET" | wc -w)
     for subnet in $SUBNET; do
