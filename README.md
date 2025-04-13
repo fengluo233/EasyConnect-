@@ -1,7 +1,8 @@
 
 # HUST VPN(EasyConnect) 连接后无法访问外网问题解决
 
-这个脚本包含了 **华中科技大学 (HUST)** 的 EasyConnect 配置和管理，用于 Windows 和 macOS 系统。脚本能够自动执行以下任务：
+这个脚本包含了 **华中科技大学 (HUST)** 的 EasyConnect 配置和管理，参考[NJU-EasyConnect-Script
+](https://github.com/tangruize/NJU-EasyConnect-Script)，用于 Windows 和 macOS 系统。脚本能够自动执行以下任务：
 - 删除当前系统路由表中过于繁杂的 VPN 相关路由规则。
 - 添加新的路由规则到系统路由表，确保网络访问正常，**可以在使用校园VPN的同时使用代理软件**。
 
@@ -15,7 +16,7 @@
 1. 下载脚本并赋予执行权限。
 2. 运行脚本以启动 EasyConnect 配置路由：
    ```bash
-   .\easyconnect_fix_hust_win.sh
+   .\sh.exe .\easyconnect_fix_hust_win.sh
    ```
 
 ### 1.3 脚本功能
